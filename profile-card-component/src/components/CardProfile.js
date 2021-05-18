@@ -21,8 +21,32 @@ const CardProfile = () => {
 
       {/* Bottom */}
       <div className="bottom">
+        
+        {/* name__section */}
+        <div className="name__section">
+          <h2>Victor Crest</h2>
+          <p>26</p>
+          </div>
+          <p className="city"> London</p>
 
-      </div>
+          {/* social media */}
+          <div className="socialMedia">
+            <div className="social__card">
+              <h2 className="card__title">80K</h2>
+              <p className="content__card"> Followers</p>
+            </div>
+            <div className="social__card">
+              <h2 className="card__title">803K</h2>
+              <p className="content__card"> Likes</p>
+            </div>
+            <div className="social__card">
+              <h2 className="card__title">1.4k</h2>
+              <p className="content__card"> Photos</p>
+            </div>
+             {/* social media */}
+           </div>
+           {/* name__section */}
+           </div>
       {/* End-Bottom */}
       
 

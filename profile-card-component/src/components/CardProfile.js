@@ -6,10 +6,10 @@ import Topimage from '../images/bg-pattern-top.svg';
 const CardProfile = () => {
   return (
     <div>
-      {/* background images  */}
+      {/* background images used  */}
     <img src={Topimage} alt="Top"  className="img__top"/>
     <img src={Bottomimage} alt="Bottom" className="img__bottom" />
-    {/* End-background images  */}
+    {/* End-background images  used */}
 
     {/* Top */}
     <div className="top">

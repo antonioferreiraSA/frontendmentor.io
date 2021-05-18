@@ -1,3 +1,5 @@
+import '../components/CardProfile.css';
+
 import Bottomimage from '../images/bg-pattern-bottom.svg';
 import Profile from '../images/image-victor.jpg';
 import React from 'react';
@@ -5,13 +7,14 @@ import Topimage from '../images/bg-pattern-top.svg';
 
 const CardProfile = () => {
   return (
-    <div>
+    <div className="body">
       {/* background images used  */}
     <img src={Topimage} alt="Top"  className="img__top"/>
     <img src={Bottomimage} alt="Bottom" className="img__bottom" />
     {/* End-background images  used */}
 
     {/* Top */}
+    <div className="main">
     <div className="top">
       <div className="image__bg">
         <img src={Profile} alt="Profile Picture" className="img__profile" />
@@ -30,7 +33,7 @@ const CardProfile = () => {
           <p className="city"> London</p>
 
           {/* social media */}
-          <div className="socialMedia">
+          <div className="social__Media">
             <div className="social__card">
               <h2 className="card__title">80K</h2>
               <p className="content__card"> Followers</p>
@@ -58,7 +61,7 @@ const CardProfile = () => {
 
 
     </div>
-    
+    </div>
     
     
       
